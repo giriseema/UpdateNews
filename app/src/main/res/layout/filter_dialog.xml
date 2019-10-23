@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:padding="@dimen/dimen_5"
+        android:textSize="@dimen/font_size"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+         />
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dimen_5"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_boarder"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:entries="@array/array_language"
+         />
+    <LinearLayout
+        android:id="@+id/lay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/btn_close_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/oval_shape"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:layout_marginEnd="@dimen/dimen_10"
+             />
+
+
+        <Button
+            android:id="@+id/btn_submit_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:layout_marginStart="@dimen/dimen_10"
+            android:layout_weight="0.5"
+            android:background="@drawable/oval_shape"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+           />
+
+    </LinearLayout>
+</LinearLayout>

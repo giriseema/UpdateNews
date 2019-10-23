@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+  <!--  <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+-->
+
+<!--<string-array name="categories">
+    <item>All News</item>
+    <item>Business</item>
+    <item>Entertainment</item>
+    <item>General</item>
+    <item>Music</item>
+    <item>Politics</item>
+    <item>Sports</item>
+    <item>Science-and-Nature</item>
+    <item>Technology</item>-->
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_all_news"
+                android:icon="@drawable/icon_all_news"
+                android:title="All News" />
+            <item
+                android:id="@+id/nav_business"
+                android:icon="@drawable/icon_business"
+                android:title="Business" />
+            <item
+                android:id="@+id/nav_enterainment"
+                android:icon="@drawable/icon_enterainment"
+                android:title="Entertainment" />
+            <item
+                android:id="@+id/nav_general"
+                android:icon="@drawable/icon_general"
+                android:title="General" />
+            <item
+                android:id="@+id/nav_music"
+                android:icon="@drawable/icon_music"
+                android:title="Music" />
+            <item
+                android:id="@+id/nav_politics"
+                android:icon="@drawable/icon_politics"
+                android:title="Politics" />
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/icon_sports"
+                android:title="Sports" />
+            <item
+                android:id="@+id/nav_science"
+                android:icon="@drawable/icon_science"
+                android:title="Science-and-Nature" />
+            <item
+                android:id="@+id/nav_technology"
+                android:icon="@drawable/icon_technology"
+                android:title="Technology" />
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/icon_power"
+        android:title="LogOut" />
+</menu>

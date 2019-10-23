@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forget password</string>
+    <string name="about_us">About us</string>
+    <string name="new_here">New here</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="no_internet_connectivity_error">No internet connectivity detected. Please reconnect and try again.</string>
+    <string name="loading">please wait while loading</string>
+    <string name="facebook_app_id">237673247114857</string>
+
+</resources>
