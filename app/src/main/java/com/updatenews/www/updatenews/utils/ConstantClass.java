@@ -11,7 +11,7 @@ import com.updatenews.www.updatenews.DtosBeans.SourcesModel;
 import java.util.ArrayList;
 
 public class ConstantClass {
-    public final static String API_KEY = "API_key";
+    public final static String API_KEY = "API_KEY";
     public final static String ARTICLES_END_POINT = "https://newsapi.org/v1/articles?source=";
     public final static String SOURCES_END_POINT = "https://newsapi.org/v1/sources";
 
